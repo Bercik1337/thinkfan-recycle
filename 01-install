@@ -1,0 +1,6 @@
+#!/bin/bash
+#run as root or with sudo
+cp -v thinkfan-recycle /usr/local/bin/thinkfan-recycle
+cp -v sudoers.d/thinkfan-recycle /etc/sudoers.d/
+#uncomment only if you don't have custom thinkfan config
+#cp -v thinkfan.conf /etc/
